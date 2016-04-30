@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+  background-color: #E6E6DC;
+}
+h1{
+  color: black;
+}
+nav {
+  background:  #00628B;
+}
+
+nav ul{
+  list-style-type: none;
+  height: 50px;
+}
+
+nav ul li{
+  display:inline;
+  width:10%;
+  float: left;
+  text-align: center;
+
+}
+
+nav li{
+  position: relative;
+  /*background-color: */
+  width: 90px;
+}
+nav a{
+  position: relative;
+  top: 14px;
+  color: #E6E6DC;
+}
+/*nav a:visited{
+  color: #E6E6DC;
+}*/
+
+nav a:hover{
+  text-decoration: none;
+  color: #81A594;
+}
+
+a:hover{
+  text-decoration: none;
+}
